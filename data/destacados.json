@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "nombre":"Baby Yoda",
+        "descripcion":"Baby yoda tomando cafe",
+        "imagen":"./img/imagen1.jpg"
+    },
+    {
+        "id":2,
+        "nombre":"Todo Bien",
+        "descripcion":"Hoy nada puede malir sal",
+        "imagen":"./img/simpsonnn.jpg"
+    },
+    {
+        "id":3,
+        "nombre":"Baby Yoda 2",
+        "descripcion":"Baby yoda en la cuna",
+        "imagen":"./img/imagen2.jpg"
+    },
+    {
+        "id":4,
+        "nombre":"Mandalorian",
+        "descripcion":"Mandalorian cargando a baby yoda",
+        "imagen":"./img/imagen3.jpg"
+    },
+    {
+        "id":5,
+        "nombre":"Friends",
+        "descripcion":"I'll be there for you",
+        "imagen":"./img/imagen4.jpg"
+    },
+    {
+        "id":6,
+        "nombre":"Sonic",
+        "descripcion":"Remera azul de sonic estampada",
+        "imagen":"./img/remera-sonic.png"
+    },
+    {
+        "id":7,
+        "nombre":"The Office",
+        "descripcion":"World's best boss",
+        "imagen":"./img/imagen5.jpg"
+    },
+    {
+        "id":8,
+        "nombre":"El Rocomovil",
+        "descripcion":"Llavero del Rocomovil de la carrera de los autos locos",
+        "imagen":"./img/llavero-autos-locos-2.png"
+    },
+    {
+        "id":9,
+        "nombre":"Boca Jrs",
+        "descripcion":"Llavero escudo Boca Juniors",
+        "imagen":"./img/llavero-boca.png"
+    },
+    {
+        "id":10,
+        "nombre":"Goku",
+        "descripcion":"Figura decorativa Goku Super Sayajin",
+        "imagen":"./img/munieco-goku.png"
+    }
+]

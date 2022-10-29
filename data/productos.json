@@ -1,0 +1,210 @@
+{
+    "tazas":[
+    {
+        "id" : 1,
+        "nombre": "Taza Half Life",
+        "imagen":"./img/halflife1.jpg",
+        "precio": 1000
+    },
+    {
+        "id" : 2,
+        "nombre": "Taza Half Life H.E.V.",
+        "imagen":"./img/half life 2.jpg",
+        "precio": 1000
+    },
+    {
+        "id" : 3,
+        "nombre": "Taza Half Life First Aid",
+        "imagen":"./img/half life 3.jpg",
+        "precio": 1000
+    },
+    {
+        "id" : 4,
+        "nombre": "Taza Half Life 3",
+        "imagen":"./img/half life 1-5.jpg",
+        "precio": 1000
+    },
+    {
+        "id" : 5,
+        "nombre": "Baby Yoda",
+        "imagen":"./img/imagen1.jpg",
+        "precio": 1000
+    },
+    {
+        "id" : 6,
+        "nombre": "Baby Yoda 2",
+        "imagen":"./img/imagen2.jpg",
+        "precio": 1000
+    },
+    {
+        "id" : 7,
+        "nombre": "Mandalorian",
+        "imagen":"./img/imagen3.jpg",
+        "precio": 1000
+    },
+    {
+        "id" : 8,
+        "nombre": "Friends",
+        "imagen":"./img/imagen4.jpg",
+        "precio": 1000
+    },
+    {
+        "id" : 9,
+        "nombre": "The Office",
+        "imagen":"./img/imagen5.jpg",
+        "precio": 1000
+    },
+    {
+        "id" : 10,
+        "nombre": "Jason",
+        "imagen":"./img/jasonn41.jpg",
+        "precio": 1000
+    },
+    {
+        "id" : 11,
+        "nombre": "The Witcher",
+        "imagen":"./img/witcher 6.jpg",
+        "precio": 1000
+    },
+    {
+        "id" : 12,
+        "nombre": "Todo Bien",
+        "imagen":"./img/simpsonnn.jpg",
+        "precio": 1000
+    }
+],
+"remeras":[
+    {
+        "id" : 13,
+        "nombre": "Darth Vader",
+        "imagen":"./img/remera-darth.png",
+        "precio": 3000
+    },
+    {
+        "id" : 14,
+        "nombre": "Dragon Ball - Goku",
+        "imagen":"./img/remera-goku.png",
+        "precio": 3000
+    },
+    {
+        "id" : 15,
+        "nombre": "Sonic",
+        "imagen":"./img/remera-sonic.png",
+        "precio": 3000
+    },
+    {
+        "id" : 16,
+        "nombre": "Dragon Ball Z - Vegeta",
+        "imagen":"./img/remera-vegeta.png",
+        "precio": 3000
+    }
+],
+"llaveros":[
+    {
+        "id" : 17,
+        "nombre": "El Troncoswagen",
+        "imagen":"./img/llavero-autos-locos-1.png",
+        "precio": 1500
+    },
+    {
+        "id" : 18,
+        "nombre": "El Rocomovil",
+        "imagen":"./img/llavero-autos-locos-2.png",
+        "precio": 1500
+    },
+    {
+        "id" : 19,
+        "nombre": "El Espantomovil",
+        "imagen":"./img/llavero-autos-locos-3.png",
+        "precio": 1500
+    },
+    {
+        "id" : 20,
+        "nombre": "El Alambique Veloz de Arkansas",
+        "imagen":"./img/llavero-autos-locos-4.png",
+        "precio": 1500
+    },
+    {
+        "id" : 21,
+        "nombre": "Boca JRS",
+        "imagen":"./img/llavero-boca.png",
+        "precio": 1500
+    },
+    {
+        "id" : 22,
+        "nombre": "Chevrolet",
+        "imagen":"./img/llavero-chevrolet.png",
+        "precio": 1500
+    },
+    {
+        "id" : 23,
+        "nombre": "River Plate",
+        "imagen":"./img/llavero-river.png",
+        "precio": 1500
+    }
+],
+"mousepads":[
+    {
+        "id" : 24,
+        "nombre": "Marvel",
+        "imagen":"./img/mouse-pad-1.png",
+        "precio": 2500
+    },
+    {
+        "id" : 25,
+        "nombre": "Spider-Man",
+        "imagen":"./img/mouse-pad-2.png",
+        "precio": 2500
+    },
+    {
+        "id" : 26,
+        "nombre": "Sonic",
+        "imagen":"./img/mouse-pad-3.png",
+        "precio": 2500
+    },
+    {
+        "id" : 27,
+        "nombre": "Dragon Ball - Goku",
+        "imagen":"./img/mouse-pad-4.png",
+        "precio": 2500
+    },
+    {
+        "id" : 28,
+        "nombre": "Dragon Ball Super - Goku y Vegeta",
+        "imagen":"./img/mouse-pad-5.png",
+        "precio": 2500
+    },
+    {
+        "id" : 29,
+        "nombre": "Dragon Ball Z - Goku",
+        "imagen":"./img/mouse-pad-6.png",
+        "precio": 2500
+    }
+],
+"muniecos":[
+    {
+        "id" : 30,
+        "nombre": "Dragon Ball Z - Goku",
+        "imagen":"./img/munieco-goku.png",
+        "precio": 3000
+    },
+    {
+        "id" : 31,
+        "nombre": "Iron Man",
+        "imagen":"./img/munieco-ironman.png",
+        "precio": 3000
+    },
+    {
+        "id" : 32,
+        "nombre": "Knuckles",
+        "imagen":"./img/munieco-knuckles.png",
+        "precio": 3000
+    },
+    {
+        "id" : 33,
+        "nombre": "Dragon Ball Z - Vegeta",
+        "imagen":"./img/munieco-vegeta.png",
+        "precio": 3000
+    }
+]
+}

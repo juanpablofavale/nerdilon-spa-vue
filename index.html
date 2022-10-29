@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta property="og:image" content="https://jmcastex.github.io/nerdilon/images/logofull.jpg" />
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="estilos.css">
+    
+    <link rel="shortcut icon" href="./img/logofull.jpg" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+    
+    <title>Nerdilon</title>
+</head>
+
+<body>
+    <div id="contenido" class="padre__tienda">
+    <header class="header">
+        <div class="header_logo animate__animated animate__bounceIn">
+            <a href="#"><img src="./img/logofull.png" alt="Nerdilon" width="80"></a>
+        </div>
+        <button class="header__button" onclick="navBurguer()">
+            <svg class="header__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+        </button>
+        <nav class="header__nav" id="header__nav">
+            <ul class="header__ul">
+                <li class="header__li"><a @click="vista = 'index'" class="header__a">INICIO</a></li>
+                <li class="header__li"><a @click="vista = 'tienda'" class="header__a">TIENDA</a></li>
+                <li class="header__li"><a @click="vista = 'nosotros'" class="header__a">NOSOTROS</a></li>
+                <li class="header__li"><a @click="vista = 'contacto'" class="header__a">CONTACTO</a></li>
+                <div id="botones-log-reg">
+                    <div v-if="logueado" class="botones">
+                        <li><button onclick="login()" id="login">INICIAR SESION</button></li>
+                        <li><button onclick="register()" id="register">REGISTRARSE</button></li>
+                    </div>
+                    <div v-else class="perfil">
+                        <li>
+                            <img :src="info.img" :alt="info.apellido" class="img-perfil">
+                            <p>{{info.nombre}}</p>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form" id="form">
+        <div class="contenedor-login">
+            <div class="efecto">
+                <form class="form-login" action="" onsubmit="return false">
+                    <button onclick="login()" id="btn-cerrar-log" class="closeForm" type="button">X</button>
+                    <label for="email-log">E-Mail
+                    </label>
+                    <input type="email" id="email-log" v-model="email">
+                    <label for="password-log">Contraseña
+                    </label>
+                    <input type="password" id="password-log" v-model="password">
+                    <input @click="iniciaSesion()" type="submit" value="Iniciar Sesion">
+                </form>
+            </div>
+        </div>
+        <div class="contenedor-register">
+            <div class="efecto">
+                <form class="form-register" action="" onsubmit="return false">
+                    <button onclick="register()" class="closeForm" type="button">X</button>
+                    <label for="apellido">Apellido
+                    </label>
+                    <input type="text" id="apellido">
+                    <label for="nombre">Nombre
+                    </label>
+                    <input type="text" id="nombre">
+                    <label for="direccion">Direccion
+                    </label>
+                    <input type="text" id="direccion">
+                    <label for="telefono">Telefono
+                    </label>
+                    <input type="number" id="telefono">
+                    <label for="email">E-Mail
+                    </label>
+                    <input type="email" id="email">
+                    <label for="password">Contraseña
+                    </label>
+                    <input type="password" id="password">
+                    <input @click="registro()" type="submit" value="Registrarse" id="registrarse">
+                    <input type="reset" id="reset">
+                    <p class="consulta">¿Ya tenes una cuenta?</p>
+                    <input onclick="register(); login();" class="irAlLogin" type="button" value="Inicia Sesión">
+        </form>
+            </div>
+        </div>
+    </div>
+
+
+    <button id="tema" @click="cambiarModo()">
+        <span class="sol">
+            <i class="fa-solid fa-sun"></i>
+        </span>
+        <span class="luna">
+            <i class="fa-solid fa-moon"></i>
+        </span>
+    </button>
+
+    <component :is="vista"></component>
+
+    <footer class="footer">
+        <h4>NERDILON</h4>
+        <div class="footer__social">
+            <a href="https://facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+    </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/495bd4c78d.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+</html>
